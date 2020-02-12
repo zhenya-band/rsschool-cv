@@ -1,16 +1,30 @@
+body{
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-
+li{
+  margin-bottom: 9px;
+}
 .container{
   width: 1024px;
   margin: auto;
 
 }
 .header {
+    padding: 33px;
     display: flex;
     justify-content: space-around;
-    align: center;
+    background-color: #FBCEB1;
+  }
+  .header-photo{
+
+  }
+  .contacts{
+
   }
   .contact-item{
     margin-bottom: 20px;
@@ -20,4 +34,30 @@ h1, h2, h3, h4, h5, h6 {
   }
 .contact-link{
   font-size: 20px;
+}
+main{
+  background-color: #FDD9B5
+}
+.resume-item{
+  padding: 30px;
+  border-top: 3px solid #A9A9A9;
+
+}
+.resume-item-title{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.footer{
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FBCEB1;
+  border-top: 3px solid #A9A9A9;
+
+
+}
+
+.footer-item{
+
 }
