@@ -1,7 +1,10 @@
 body{
   margin: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Merriweather", "Arial", sans-serif;
   font-size: 18px;
+}
+main{
+  background-color: #FDD9B5
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,9 +31,7 @@ a:hover{
     justify-content: space-around;
     background-color: #FBCEB1;
   }
-  .header-photo{
 
-  }
   .name{
     margin-bottom: 65px;
     color: #6D6552;
@@ -51,9 +52,7 @@ a:hover{
 .header-link:hover {
   color: white;
 }
-main{
-  background-color: #FDD9B5
-}
+
 .resume-item{
   padding: 30px;
   border-top: 3px solid #A9A9A9;
@@ -62,7 +61,11 @@ main{
 .resume-item-title{
   font-size: 35px;
   margin-bottom: 25px;
+  color: rebeccapurple;
   box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+.text{
+  border-bottom: 50px;
 }
 
 .footer{
@@ -75,9 +78,6 @@ main{
 
 }
 
-.footer-item{
-
-}
  .footer-link{
   text-decoration: none;
    color: black;
